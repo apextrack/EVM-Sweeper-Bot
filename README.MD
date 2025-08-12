@@ -36,3 +36,50 @@ cd EVM-Sweeper-Bot-
 
 # Instal dependensi
 npm install ethers figlet inquirer
+---
+
+
+⚙️ Konfigurasi
+Buat file config.json di direktori proyek Anda dengan format berikut:
+
+```bash
+{
+  "PRIVATE_KEYS": [
+    "0x...kunci_privat_dompet_1...",
+    "0x...kunci_privat_dompet_2..."
+  ],
+  "RELAYER_PRIVATE_KEY": "0x...kunci_privat_relayer...",
+  "TO_ADDRESS": "0x...alamat_tujuan_anda...",
+  "CONTRACT_ADDRESSES": [
+    "0x...alamat_kontrak_erc20_atau_nft_1..."
+  ],
+  "NETWORKS": {
+    "ethereum": {
+      "rpcUrl": "https://eth.llamarpc.com"
+    },
+    "bsc": {
+      "rpcUrl": "https://bsc-dataseed.binance.org"
+    }
+  },
+  "POLLING_INTERVAL": 300000
+}
+---
+
+▶️ Penggunaan
+Jalankan bot dengan perintah berikut:
+
+---
+```bash
+
+node index.js
+---
+
+Bot akan menampilkan menu interaktif untuk Anda pilih.
+---
+
+🤝 Kontribusi
+Kontribusi sangat kami harapkan! Jika Anda memiliki ide atau perbaikan, silakan buka issue atau kirimkan pull request.
+---
+
+📄 Lisensi
+Proyek ini dilisensikan di bawah MIT License.
