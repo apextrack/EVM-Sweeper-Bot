@@ -139,7 +139,6 @@ Run the test suite using the following command:
 
 ##  Contributing
 
-- **💬 [Join the Discussions](https://github.com/gb1-svg/EVM-Sweeper-Bot/discussions)**: Share your insights, provide feedback, or ask questions.
 - **🐛 [Report Issues](https://github.com/gb1-svg/EVM-Sweeper-Bot/issues)**: Submit bugs found or log feature requests for the `EVM-Sweeper-Bot` project.
 - **💡 [Submit Pull Requests](https://github.com/gb1-svg/EVM-Sweeper-Bot/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
