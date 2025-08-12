@@ -1,7 +1,3 @@
-Of course. The README you provided is already in two versions: Indonesian and English.
-
-Here is the English version, formatted cleanly for you to use. It's ready to be uploaded to your GitHub repository.
-
 EVM Sweeper Bot 🧹
 <p align="center">
 <img src="https://i.imgur.com/your-dynamic-bot-logo.png" alt="EVM Sweeper Bot" width="300"/>
