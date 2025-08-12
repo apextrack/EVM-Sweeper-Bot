@@ -104,7 +104,7 @@ Install EVM-Sweeper-Bot using one of the following methods:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'npm install'
+❯ npm install
 ```
 
 
@@ -115,7 +115,7 @@ Run EVM-Sweeper-Bot using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="" />]()
 
 ```sh
-❯ echo 'npm run start'
+❯ npm run start
 ```
 
 
