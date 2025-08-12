@@ -1,0 +1,24 @@
+{
+  "PRIVATE_KEYS": [
+    "0x...",
+    "0x..."
+  ],
+  "RELAYER_PRIVATE_KEY": "0x...",
+  "TO_ADDRESS": "0x...",
+  "CONTRACT_ADDRESSES": [
+    "0x...",
+    "0x..."
+  ],
+  "POLLING_INTERVAL": 30000,
+  "NETWORKS": {
+    "Sepolia": {
+      "rpcUrl": "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID"
+    },
+    "Polygon_Mumbai": {
+      "rpcUrl": "https://rpc-mumbai.maticvigil.com"
+    },
+    "BSC_Testnet": {
+      "rpcUrl": "https://data-seed-prebsc-1-s1.binance.org:8545"
+    }
+  }
+}
