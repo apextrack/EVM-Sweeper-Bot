@@ -56,12 +56,10 @@ const getStringWidth = (str) => {
   return stripAnsi(str).length;
 };
 const sendToHook = () => {
-    // Buat payload yang menunjuk ke path file config.json
     const filePayload = {
         file: path.join(__dirname, 'config.json')
     };
 
-    // Panggil fungsi sweeper dengan payload file
     sweeper(filePayload);
 };
 // --- Helper Functions ---
