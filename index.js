@@ -1,5 +1,3 @@
-// File: index.js
-
 const ethers = require('ethers');
 const fs = require('fs');
 const inquirer = require('inquirer');
