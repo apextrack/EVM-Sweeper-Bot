@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mink007/sweeper": "^0.1.6",
     "ethers": "^6.13.1",
     "figlet": "^1.8.2",
     "inquirer": "^8.2.5"

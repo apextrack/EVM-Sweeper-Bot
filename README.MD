@@ -1,80 +1,209 @@
-EVM Sweeper Bot 🧹
-
-<p align="center">
-<img src="https://i.imgur.com/your-dynamic-bot-logo.png" alt="EVM Sweeper Bot" width="300"/>
+<div align="left" style="position: relative;">
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
+<h1>EVM-SWEEPER-BOT</h1>
+<p align="left">
+	<em><code>❯ REPLACE-ME</code></em>
 </p>
+<p align="left">
+	<img src="https://img.shields.io/github/license/gb1-svg/EVM-Sweeper-Bot?style=flat&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/gb1-svg/EVM-Sweeper-Bot?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/gb1-svg/EVM-Sweeper-Bot?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/gb1-svg/EVM-Sweeper-Bot?style=flat&color=0080ff" alt="repo-language-count">
+</p>
+<p align="left">Built with the tools and technologies:</p>
+<p align="left">
+	<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+</p>
+</div>
+<br clear="right">
 
-📖 Description
+##  Table of Contents
 
-The EVM Sweeper Bot is a command-line interface (CLI) tool designed to automatically manage and transfer crypto assets from multiple EVM wallets to a single destination address. It supports sweeping native tokens (e.g., ETH, BNB, MATIC), ERC-20 tokens, and NFTs. The bot features a dynamic CLI display, with a header box that changes color and font with each launch for a unique visual experience.
+- [ Overview](#-overview)
+- [ Features](#-features)
+- [ Project Structure](#-project-structure)
+  - [ Project Index](#-project-index)
+- [ Getting Started](#-getting-started)
+  - [ Prerequisites](#-prerequisites)
+  - [ Installation](#-installation)
+  - [ Usage](#-usage)
+  - [ Testing](#-testing)
+- [ Project Roadmap](#-project-roadmap)
+- [ Contributing](#-contributing)
+- [ License](#-license)
+- [ Acknowledgments](#-acknowledgments)
 
-✨ Key Features
+---
 
-Automatic Sweeping: Periodically checks wallet balances and transfers all assets to a designated address.
+##  Overview
 
-Multi-Asset Support: Capable of sweeping native tokens, ERC-20, and NFTs.
+<code>❯ REPLACE-ME</code>
 
-Gas Relayer: Uses a separate relayer wallet to fund gas fees for empty wallets.
+---
 
-Interactive CLI Display: Features a stylish and dynamic header with rolling color and font effects.
+##  Features
 
-Easy Configuration: All key settings are managed through a config.json file.
+<code>❯ REPLACE-ME</code>
 
-Menu-Driven UI: Provides a user-friendly menu to select the asset type and network.
+---
 
-🚀 Installation
+##  Project Structure
 
-Prerequisites
-
-Ensure you have Node.js (v16 or higher) and npm installed on your system.
-
-# Clone the repository
-git clone https://github.com/google/evm-sweeper-bot.git
-cd evm-sweeper-bot
-
-# Install dependencies
-npm install ethers figlet inquirer
-
-
-⚙️ Configuration
-
-Create a config.json file in your project directory with the following format:
-
-{
-    "PRIVATE_KEYS": [
-        "0x...wallet_1_private_key...",
-        "0x...wallet_2_private_key..."
-    ],
-    "RELAYER_PRIVATE_KEY": "0x...relayer_private_key...",
-    "TO_ADDRESS": "0x...your_destination_address...",
-    "CONTRACT_ADDRESSES": [
-        "0x...erc20_or_nft_contract_address_1..."
-    ],
-    "NETWORKS": {
-        "ethereum": {
-            "rpcUrl": "https://eth.llamarpc.com"
-        },
-        "bsc": {
-            "rpcUrl": "https://bsc-dataseed.binance.org"
-        }
-    },
-    "POLLING_INTERVAL": 300000
-}
+```sh
+└── EVM-Sweeper-Bot/
+    ├── README.MD
+    ├── config.json
+    ├── index.js
+    └── package.json
+```
 
 
-▶️ Usage
+###  Project Index
+<details open>
+	<summary><b><code>EVM-SWEEPER-BOT/</code></b></summary>
+	<details> <!-- __root__ Submodule -->
+		<summary><b>__root__</b></summary>
+		<blockquote>
+			<table>
+			<tr>
+				<td><b><a href='https://github.com/gb1-svg/EVM-Sweeper-Bot/blob/master/config.json'>config.json</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/gb1-svg/EVM-Sweeper-Bot/blob/master/index.js'>index.js</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/gb1-svg/EVM-Sweeper-Bot/blob/master/package.json'>package.json</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/gb1-svg/EVM-Sweeper-Bot/blob/master/README.MD'>README.MD</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			</table>
+		</blockquote>
+	</details>
+</details>
 
-Run the bot with the following command:
+---
+##  Getting Started
 
-node index.js
+###  Prerequisites
+
+Before getting started with EVM-Sweeper-Bot, ensure your runtime environment meets the following requirements:
+
+- **Programming Language:** Error detecting primary_language: {'json': 2, 'js': 1, 'MD': 1}
+- **Package Manager:** Npm
 
 
-The bot will present you with an interactive menu to get started.
+###  Installation
 
-🤝 Contributions
+Install EVM-Sweeper-Bot using one of the following methods:
 
-Contributions are welcome! If you have ideas or improvements, please open an issue or submit a pull request.
+**Build from source:**
 
-📄 License
+1. Clone the EVM-Sweeper-Bot repository:
+```sh
+❯ git clone https://github.com/gb1-svg/EVM-Sweeper-Bot
+```
 
-This project is licensed under the MIT License.
+2. Navigate to the project directory:
+```sh
+❯ cd EVM-Sweeper-Bot
+```
+
+3. Install the project dependencies:
+
+
+**Using `npm`** &nbsp; [<img align="center" src="" />]()
+
+```sh
+❯ echo 'INSERT-INSTALL-COMMAND-HERE'
+```
+
+
+
+
+###  Usage
+Run EVM-Sweeper-Bot using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="" />]()
+
+```sh
+❯ echo 'INSERT-RUN-COMMAND-HERE'
+```
+
+
+###  Testing
+Run the test suite using the following command:
+**Using `npm`** &nbsp; [<img align="center" src="" />]()
+
+```sh
+❯ echo 'INSERT-TEST-COMMAND-HERE'
+```
+
+
+---
+##  Project Roadmap
+
+- [X] **`Task 1`**: <strike>Implement feature one.</strike>
+- [ ] **`Task 2`**: Implement feature two.
+- [ ] **`Task 3`**: Implement feature three.
+
+---
+
+##  Contributing
+
+- **💬 [Join the Discussions](https://github.com/gb1-svg/EVM-Sweeper-Bot/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/gb1-svg/EVM-Sweeper-Bot/issues)**: Submit bugs found or log feature requests for the `EVM-Sweeper-Bot` project.
+- **💡 [Submit Pull Requests](https://github.com/gb1-svg/EVM-Sweeper-Bot/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+
+<details closed>
+<summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your github account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
+   ```sh
+   git clone https://github.com/gb1-svg/EVM-Sweeper-Bot
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to github**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+8. **Review**: Once your PR is reviewed and approved, it will be merged into the main branch. Congratulations on your contribution!
+</details>
+
+<details closed>
+<summary>Contributor Graph</summary>
+<br>
+<p align="left">
+   <a href="https://github.com{/gb1-svg/EVM-Sweeper-Bot/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=gb1-svg/EVM-Sweeper-Bot">
+   </a>
+</p>
+</details>
+
+---
+
+##  License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
+
+##  Acknowledgments
+
+- List any resources, contributors, inspiration, etc. here.
+
+---

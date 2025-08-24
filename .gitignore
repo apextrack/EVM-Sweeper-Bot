@@ -1,0 +1,9 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+state.json
+
+# Build outputs
+dist/
+build/
